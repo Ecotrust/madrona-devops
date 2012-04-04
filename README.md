@@ -1,4 +1,3 @@
-
 # Initial setup
 
 ```
@@ -21,5 +20,6 @@ In Vagrantfile
 This will try to put your stuff directly in ~/ .. if your windows machine has home as the network U: drive,
 
 You can change this behavior by settings the ``VAGRANT_HOME`` environment variable:
+
     set VAGRANT_HOME=E:\projects\vagrant\.vagrant.d
     echo %VAGRANT_HOME%
