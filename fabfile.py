@@ -1,8 +1,8 @@
 from fabric.api import *
 
 vars = {
-    'app_dir': '/usr/local/apps/land_owner_tools/lot',
-    'venv': '/usr/local/venv/lot'
+    'app_dir': '/usr/local/apps/madrona-devops/madrona',
+    'venv': '/usr/local/venv/madrona'
 }
 
 env.forward_agent = True
